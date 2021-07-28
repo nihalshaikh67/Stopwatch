@@ -1,0 +1,73 @@
+body{
+    background: linear-gradient(to right,violet,pink,lightgreen,lightblue);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#container{
+    color: rgb(5, 5, 5);
+    background: linear-gradient(to bottom,red,yellow,green);
+    height:350px;
+    width:1150px;
+    text-align: center;
+    border-radius: 40px;
+   
+}
+.digit{
+    font-size:180px;
+    font-weight: bold;
+
+}
+#txt{
+    font-size :50px;
+    font-weight : bold;
+}
+
+#btn-container{
+text-align: center;
+margin-top: 40px;
+}
+
+.btn{
+    padding: 7px 25px;
+    font-size: 20px;
+    margin: 0px 15px;
+    cursor: pointer;
+    border: 0;
+    color: white;
+    font-weight: bold;
+}
+
+#start{
+    background-color: green;
+}
+#stop{
+    background-color: blue;
+}
+#reset{
+    background-color: red;
+}
+
+#start:hover{
+    background-color: rgb(23, 172, 23);
+    transform: scale(1.1,1.1);
+    border-radius: 15px;
+}
+
+#stop:hover{
+    background-color: rgb(80, 80, 212);
+    transform: scale(1.1,1.1);
+    border-radius: 15px;
+}
+
+#reset:hover{
+    background-color: rgb(238, 55, 55);
+    transform: scale(1.1,1.1);
+    border-radius: 15px;
+
+}
+
+
+ 
